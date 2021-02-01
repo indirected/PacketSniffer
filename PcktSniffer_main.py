@@ -16,7 +16,7 @@ DATA_TABLE_POST = "  |     "
 DATA_TABLE_HORIZ = "     ======================================================================     "
 
 
-
+#This Class Creates a .pcap file and writes data in it
 class pcap:
     def __init__(self,name,datalink = 1):
         self.file = open(name + ".pcap",'wb')
